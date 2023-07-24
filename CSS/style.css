@@ -1,0 +1,248 @@
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar-default{
+  background: #fff;
+}
+nav.navbar.navbar-default.bg-white {
+    height: 84px;
+    padding-top: 16px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00192F;
+}
+.navbar-default .navbar-nav>.active>a:active{
+  background: #00A7CF;
+  width: 110px;
+  height: 43px;
+  border-radius: 23px;
+  opacity: 0.26;
+}
+.navbar-nav>li>a {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #1592E6;
+    background-color: #00a7cf42;
+}
+nav.all-people a.active{
+  border-bottom: 3px solid#00A7CF;
+    padding-bottom: 14px;
+}
+/*-- contact-navbar --*/
+.navbar.contact-navbar {
+    margin-bottom: 0px;
+    border: none;
+    padding: 6px 0px;
+    border-radius: 0;
+}
+
+.contact-navbar .navbar-form .input-group>.form-control {
+    width: 300px;
+   border-radius: 0px 45px 45px 0px;
+}
+
+button.btn.btn-default.search-icon-btn {
+    
+     border-radius: 45px 0px 0px 45px;
+}
+
+.contact-navbar i{
+  font-size: 14px;
+    
+    padding: 9px;
+    background: #00A7CF;
+    color: white;
+    border-radius: 50%;
+}
+.badge-notify{
+   background:red;
+   position:absolute;
+   top:0px;
+  }
+  .message-icons li a{
+        padding: 7px;
+  }
+
+.user-name-btn {
+    border-radius: 43px;
+    border: none;
+    padding: 9px 17px;
+    margin-top: 6px;
+    margin-right: 20px;
+    margin-left: 28px;
+    font-size: 12px;
+}
+nav.all-people {
+    height: 71px;
+    padding-top: 39px;
+}
+nav.all-people a{
+  padding-right:20px;
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+
+}
+.all-people-list-item{
+  margin:0 64px;
+}
+.data-table-list{
+  background: #ECF4F7;
+    height: 100%;
+}
+.btn-create-list {
+    margin: 24px 0px;
+}
+
+
+.data-table-list table th:first-child {
+  border-radius: 30px 0 0 30px;
+}
+
+
+.data-table-list table th:last-child {
+  border-radius: 0 30px 30px 0;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000;
+  color: white;
+}
+
+.checkbox{
+  padding: 0 26px;
+    margin: 0;
+}
+
+table tr td, table tr th{
+  padding:8px;
+}
+.table-condensed>thead>tr>td, .table-condensed>thead>tr>th
+{
+  padding:14px 6px;
+}
+.table-condensed>tbody>tr>td{
+  background: white;
+  padding: 8px 0;
+
+}
+
+tr:first-child td:first-child { border-top-left-radius: 30px; }
+tr:first-child td:last-child { border-top-right-radius: 30px; }
+
+tr:last-child td:first-child { border-bottom-left-radius: 30px; }
+tr:last-child td:last-child { border-bottom-right-radius: 30px; }
+
+table{
+  border-collapse: inherit;
+  font-size: 11px;
+}
+
+table td span{
+    background: #4bdf4b;
+    color: white;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 11px;
+}
+table td a{
+  color: #00A7CF;
+}
+.p-5 {
+    padding: 0 60px;
+}
+table tr td .material-icons, table tr td i{
+  font-size: 12px !important;
+  padding:0 4px;
+}
+i.fa.fa-trash {
+    color: #00a7d8;
+}
+.value{
+color:  #838383;
+}
+
+/*------------@media query------------ */
+
+
+@media screen and (max-width: 768px){
+  ul.nav.navbar-nav.navbar-right {
+    width: 84%;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 11px;
+  }
+  .nav>li>a {
+    padding: 7px 9px;
+  }
+ .contact-navbar ul.nav.navbar-nav.navbar-right {
+    width: 62%;
+}
+.contact-navbar .navbar-form .input-group>.form-control{
+  width: 219px;
+}
+.all-people-list-item {
+    margin: 1px 48px;
+}
+}
+
+
+@media screen and (max-width: 520px){
+   nav.navbar.navbar-default.bg-white{
+    z-index: 4;
+    padding-top:0; 
+    background: black;
+   }
+  .main-nav{
+    background: black;
+    color: white;
+  }
+  .navbar-default .navbar-nav>li>a {
+    font-size: 11px;
+    color: white;
+}
+.message-icons li{
+  float: left;
+}
+.message-icons li>a {
+    padding: 9px 16px;
+}
+.contact-navbar ul.nav.navbar-nav.navbar-right{
+  width: 100%;
+}
+.contact-navbar .navbar-form .input-group>.form-control {
+    width: 100%;
+}
+.all-people-list-item {
+    margin: -19px 20px;
+    display: flex;
+}
+.p-5{
+  padding: 15px;
+}
+.table-scroll-overflow-x{
+  overflow-x: auto;
+}
+.table {
+    width: 795px;
+    max-width: 795px;
+}
+.user-name-btn{
+  margin-left: 15px;
+  padding: 9px 23px;
+}
+}
